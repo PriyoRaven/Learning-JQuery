@@ -1,0 +1,56 @@
+html,body{
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    text-align: center;
+    background: linear-gradient(to top, #ffffff, beige);
+}
+
+h1{
+    font-family: cursive;
+}
+
+.ones{
+    background-color: red; 
+}
+.twos{
+    background-color: blue;
+}
+.threes{
+    background-color: green;
+}
+.fours{
+    background-color: yellow;
+}
+
+
+.box{
+    margin: 5px;
+    border-radius: 20px;
+    height: 35px;
+    width: auto;
+    color:black;
+    font-weight: 700;
+    border: none;
+    cursor: pointer;
+    font-size: 15px;
+    box-shadow: 2px 2px grey
+}
+
+.box:active{
+    outline: none;
+    box-shadow: none;
+}
+
+.write{
+    margin-top: 20px;
+    border-radius: 20px;
+    border-color: #ffffff;
+    outline: none;
+    height: 25px;
+    width: 275px;
+    cursor: pointer;
+}
